@@ -3,12 +3,12 @@ from flask import Flask, request, jsonify
 import openai
 
 # Configurar sua chave da API da OpenAI
-openai.api_key = "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"
+openai.api_key = " "
 
 # Configurar credenciais do Twilio (obtenha-as em https://www.twilio.com/console)
-TWILIO_ACCOUNT_SID = "AC169c16ed0367ea202b0ab524ed2f8fd4"
-TWILIO_AUTH_TOKEN = "a05476a87ab5e30dfa8a61eb45af1598"
-TWILIO_PHONE_NUMBER = "+12512205625"  # Deve ser um número Twilio
+TWILIO_ACCOUNT_SID = " "
+TWILIO_AUTH_TOKEN = " "
+TWILIO_PHONE_NUMBER = " "  # Deve ser um número Twilio
 
 # Inicializar o cliente do Twilio
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
